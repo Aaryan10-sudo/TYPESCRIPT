@@ -1,0 +1,16 @@
+Installation 
+npm i -g typescript
+npm i -g ts-node //ts-node lets you run TypeScript code without needing to compile it to JavaScript first. 
+
+console.log('Hello this is a test);
+//Typescript is built on top of Javascript so whatever written in js could be included in ts
+
+In Typescript : 
+let age : number = 20  //Explaining a variable in typescript
+age = 'a' // Throws not assignable to type 'number error'
+console.log(age) // Error
+
+In Javascript :
+let age = 20;
+age = 'Test'
+console.log(age) // Test
